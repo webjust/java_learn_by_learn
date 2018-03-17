@@ -37,8 +37,22 @@ Java分为三个体系：
 Java开发工具：http://www.eclipse.org/downloads/
 
 ## Java 开发环境配置 ##
-Java JDK 下载地址：
-http://www.oracle.com/technetwork/cn/java/javase/downloads/index.html
+下载 Java：java开发工具包JDK：http://www.oracle.com/technetwork/cn/java/javase/downloads/index.html
+
+配置环境变量
+在"系统变量"中设置3项属性，JAVA_HOME, PATH, CLASSPATH (大小写无所谓),若已存在则点击"编辑"，不存在则点击"新建"。
+
+变量设置参数如下：
+
+变量名：JAVA_HOME
+变量值：C:\Program Files (x86)\Java\jdk1.8.0_91   // 要根据自己的实际路径配置
+变量名：CLASSPATH
+变量值：.;%JAVA_HOME%\lib\dt.jar;%JAVA_HOME%\lib\tools.jar;         //记得前面有个"."
+变量名：Path
+变量值：%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;
+
+测试JDK是否安装成功：
+cmd 键入命令：java -version, java, javac
 
 ## Java 基础语法 ##
 
