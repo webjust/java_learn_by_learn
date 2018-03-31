@@ -1,0 +1,19 @@
+public class Employee{
+	public String name;
+	private double salary;
+	public Employee(String empName){
+		name=empName;
+	}
+	public void setSalary(double empSal){
+		salary=empSal;
+	}
+	public void printEmp(){
+		System.out.println("Ãû×Ö£º"+name);
+		System.out.println("Ð½Ë®£º"+salary);
+	}
+	public static void main(String[] args){
+		Employee empOne=new Employee("Jack");
+		empOne.setSalary(1000);
+		empOne.printEmp();
+	}
+}
