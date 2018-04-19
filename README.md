@@ -1,4 +1,4 @@
-#Java学习笔记
+# Java学习笔记 #
 - [学习笔记](./Java_webjust.md)
 - [Java大纲](./Java_outline.md)
 - [课后习题](./Java_Work.md)
@@ -9,5 +9,5 @@
 - [Java岗位](./Java_work.md)
 - [思维导图](./MindMap.md)
 
-## 我的文章
+## 我的文章 ##
 - 01 [我的第一个Java程序](./01_first_java_code.md)
